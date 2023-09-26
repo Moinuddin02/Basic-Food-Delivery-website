@@ -1,0 +1,64 @@
+
+.navbar{
+    flex-direction: column;
+    margin-right: 50px;
+}
+.navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 9px;
+}
+
+.btn{
+
+}
+
+/* Home */
+
+
+.home{
+  height: 300px;
+}
+.home::before{
+    height:400px ;
+}
+
+.heading{
+    font-size: 1.4rem
+}
+.home p{
+    font-size: 16px;
+}
+
+
+
+.services{
+    display: flex;
+    flex-direction: column;
+}
+
+.services .box{
+    
+}
+.services-container .primary
+{
+    margin-left:37% ;
+    margin-top: 43px
+}
+
+#services-container .box:hover{
+    cursor: pointer;
+    border: 3px solid red;
+}   
+#clinets{
+ flex-wrap: wrap;  
+}
+
+.h-primary-client{
+    margin-left: 36%;
+}
+#clients img{
+    width: 70px;
+    padding: 7px;
+    height: auto;
+}
